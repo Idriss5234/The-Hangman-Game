@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hangman</title>
+    <link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+<body>
+    
+    <h1>Welcome to the Hangman Game...</h1>
+    <hr>
+    <div class="container" id="cont">
+        <div id="game">
+
+        </div>
+        <div id="field">
+            <input type="text" id="guess" placeholder="Guess a letter">
+            <button id="subltr">Submit letter</button> 
+
+            <div id="message" class="message-box">
+                <!-- Message content will be inserted here -->
+              </div>
+        </div>
+       
+    </div>
+    
+        <div class="words">
+            <label for="inputword">Enter a word:  </label>
+            <input type="text" id="wordinput">
+            <button id="sub">Submit word</button>
+        </div>
+
+    
+<script type="text/javascript" src="hangman.js"></script>   
+</body>
+</html>

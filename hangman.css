@@ -1,0 +1,81 @@
+body {
+   /* background: linear-gradient(to right, rgb(58, 42, 183), rgb(157, 208, 226));*/
+   background: url("https://t4.ftcdn.net/jpg/04/86/18/57/360_F_486185798_yL4lwLEGEkIyDWdrUP7AXSvWxsYd28I2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: cornsilk;
+
+}
+hr{
+    width: 480px ;
+    justify-content: center;
+    border-color: wheat;
+}
+.buf{
+    margin-top: 1000px;
+}
+.container{
+    flex: 1;
+}
+
+button{
+    width: 10em;
+    height: 2em;
+    background: linear-gradient(to right, rgb(167, 160, 222), rgb(112, 154, 194));
+    margin-left: 10px;
+    
+}
+label{
+    margin-right: 10px;
+    color: bisque;
+    font-size: large;
+}
+.words{
+    display: flex;
+    align-items: end;
+    padding-bottom: 100px;
+}
+
+#game{
+    padding-top: 150px;
+    font-size: 50px;
+    color: bisque;
+    align-items: center;
+    text-align: center;
+
+}
+
+#message{
+    padding-top: 50px;
+    font-size:30px;
+    color: bisque;
+    align-items: center; 
+    text-align: center;   
+}
+
+#cont{
+    display: none;
+}
+
+#field{
+    padding-top: 50px;
+
+}
+
+.container{
+    border: 2px solid wheat;
+    border-radius: 10px; 
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    display: inline-block;
+    margin: 10px 10px; /* Adjust top and bottom margin */
+}
